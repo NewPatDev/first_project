@@ -112,3 +112,55 @@ body
 		
 }
 
+.topbar
+{
+	background-color:#303030;	
+}
+
+#topbarL 
+{
+	display:inline-block;
+	padding:30px;
+	
+}
+
+#topbarL img
+
+{
+	border-radius:5px;
+	width:300px;
+	padding-left:30px;
+}
+
+#topbarR 
+{
+	display:inline-block;
+	width:750px;
+	font-size:20px;	
+	color:white;
+	text-align:justify;
+	padding-left:100px;
+	
+}
+
+#topbarR h2
+{
+	color:#39a5f1;
+}
+
+.why h2
+{
+	color:#39a5f1;
+	text-align:center;
+	font-size:40px;
+}
+
+.why p
+{
+	color:white;
+	text-align:center;
+	padding-left:60px;
+	padding-right:60px;
+	padding-top:10px;
+	font-size:20px;
+}
