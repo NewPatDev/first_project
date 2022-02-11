@@ -5,6 +5,7 @@ body
 	font-family: 'Open Sans', sans-serif;
 	font-size:17px;
 	margin:0px;
+	color: #efefef;
 	
 }
 
@@ -57,7 +58,7 @@ body
 
 .menu>li:first-child
 {
-	border-left:1px dashed #444444;;
+	border-left:1px dashed #444444;
 }
 
 .menu a
@@ -96,7 +97,6 @@ body
 	background-image: url("img/tir.png");
 	height:400px;
 	margin-top:40px;
-	width:100%;
 	
 }
 
@@ -143,17 +143,7 @@ body
 	
 }
 
-#topbarR h2
-{
-	color:#39a5f1;
-}
 
-.why h2
-{
-	color:#39a5f1;
-	text-align:center;
-	font-size:40px;
-}
 
 .why p
 {
@@ -163,4 +153,73 @@ body
 	padding-right:60px;
 	padding-top:10px;
 	font-size:20px;
+}
+
+.newest
+{
+	background-color:#191d21;
+}
+
+.entries
+
+{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:80px;
+	width:950px;
+	margin-top:40px;
+	
+}
+
+.entry
+{
+	background-color:#222930;
+	padding:30px;
+	text-align:justify;
+	margin-top:40px;
+	border-radius:5px;
+	font-size:18px;
+	
+	
+}
+
+.entryimg
+{
+	float:left;
+	margin-left: 30px;
+	width:300px;
+	
+}
+
+.entryimg img
+{
+	width:150px;
+	height:130px;
+	border-radius:5px;
+
+}
+
+.entrytxt
+{
+	float:left;
+	width:600px;	
+}
+
+h2
+{
+	color:#39a5f1;
+	text-align:center;
+	font-size:40px;
+	padding-top:5px;
+}
+
+h3
+
+{
+	color:#39a5f1;
+	text-align:center;
+	font-size:20px;
+	margin-top:0px;
 }
