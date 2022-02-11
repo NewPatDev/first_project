@@ -29,13 +29,6 @@ body
 	
 }
 
-.top>li>i
-
-{
-	color:#39a5f1;
-	margin-right:10px;
-}
-
 .menu
 {
 	list-style-type:none;
@@ -44,6 +37,7 @@ body
 	padding:20px;
 		
 }
+
 
 .menu>li
 {
@@ -65,6 +59,11 @@ body
 {
 	text-decoration:none;
 	color:white;
+}
+
+.menu a:hover
+{
+	color:#39a5f1;
 }
 
 .bluebutton
@@ -143,8 +142,6 @@ body
 	
 }
 
-
-
 .why p
 {
 	color:white;
@@ -222,4 +219,95 @@ h3
 	text-align:center;
 	font-size:20px;
 	margin-top:0px;
+}
+
+.user
+{
+	background-color:#303030;
+	padding-bottom:20px;
+}
+
+.useres
+{
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:20px;
+}
+
+.tw
+{
+	float:left;
+	width:250px;
+	height:120px;
+	font-size:72px;
+
+}
+
+.tw:hover
+{
+	background-color: #3095d3;
+}
+
+.fb
+{
+	float:left;
+	width:250px;
+	height:120px;
+	font-size:72px;
+	
+}
+
+.fb:hover
+{
+	background-color: #4668b3;
+}
+
+.yt
+{
+	float:left;
+	width:250px;
+	height:120px;
+	font-size:72px;
+	
+}
+
+.yt:hover
+{
+	background-color: #d94348;
+}
+
+.gplus
+{
+	float:left;
+	width:250px;
+	height:120px;
+	font-size:72px;
+	
+}
+
+.gplus:hover
+{
+	background-color: #d95333;
+}
+
+.socialll
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:1000px;
+}
+
+.social
+{
+	text-align:center;
+	width:100%;
+}
+
+.info
+{
+	text-align:center;
+	font-size:20px;
+	background-color:#303030;
+	padding:20px;
 }
