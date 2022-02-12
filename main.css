@@ -83,6 +83,7 @@ body
 	margin-right:auto;
 	margin-left:auto;
 	
+	
 }
 
 .bluebutton:hover
@@ -94,8 +95,11 @@ body
 .img
 {
 	background-image: url("img/tir.png");
+	background-size:cover;
 	height:400px;
 	margin-top:40px;
+	position:relative;
+	overflow:hidden;	
 	
 }
 
@@ -108,18 +112,48 @@ body
 	color:#39a5f1;
 	height:80px;
 	padding-top:60px;
+	white-space:nowrap;
+	animation: przesun 30s linear infinite;
+	position:absolute;
 		
 }
 
+.img p:hover
+{
+	animation-play-state:paused;
+}
+
+@keyframes przesun
+{
+	0% {transform:translateX(0); padding-left:110%; }
+	100% {transform:translateX(-100%); padding-left:110%; }
+}
+
+
 .topbar
 {
-	background-color:#303030;	
+	background-color:#303030;
+	width:100%;
+	text-align:justify;
+	
+}
+
+.topbarall
+{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	
 }
 
 #topbarL 
 {
-	display:inline-block;
+	float:left;
+	width:160px;
 	padding:30px;
+	margin-top:100px;
+	padding-left:0px;
+	
 	
 }
 
@@ -128,17 +162,17 @@ body
 {
 	border-radius:5px;
 	width:300px;
-	padding-left:30px;
+	
 }
 
 #topbarR 
 {
-	display:inline-block;
-	width:750px;
-	font-size:20px;	
+	float:left;
+	width:600px;
+	font-size:20px;
 	color:white;
-	text-align:justify;
-	padding-left:100px;
+	padding-left:180px;
+	padding-bottom:20px;
 	
 }
 
