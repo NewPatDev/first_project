@@ -18,9 +18,30 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
 	<![endif]-->
 	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <!--wklejenie biblioteki/api jquerry -->
+	
+	<script src="jquery.scrollTo.min.js"></script>
+	
+	<script>
+	//pokaż podczas przewijania
+	
+	$(window).scroll(function()
+	
+	{
+	if($(this).scrollTop()>420) $('.scrollup').fadeIn();
+	else $('.scrollup').fadeOut();
+	}
+	
+	);
+	
+	</script
+	
 </head>
 
 <body>
+
+	<a href="#" class="scrollup"></a>
+	
 
 	<div class="top">
 	
@@ -68,7 +89,7 @@
 					<br/>
 					<br/>
 					<br/>
-					<button class="bluebutton">Dowiedz się więcej</button>	
+					<a href="#dbutton"><button class="bluebutton">Dowiedz się więcej</button></a>
 				
 				</header>
 				
@@ -93,7 +114,7 @@
 				
 					<header>
 					
-						<h2>Kilka słów o firmię</h2>
+						<h2 id="dbutton">Kilka słów o firmię</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fermentum luctus lorem in tempus. Cras hendrerit risus mi, non pretium metus pellentesque eu. Nullam accumsan ligula finibus interdum congue. Quisque ut tellus sed odio laoreet malesuada ac et lectus. Maecenas lorem lorem, interdum sed nisi eget, semper malesuada velit. Nullam sit amet maximus tortor. Vivamus eu risus sit amet nisl sodales iaculis commodo id tortor.Morbi pretium, libero in laoreet porta, lacus ligula suscipit nibh, vitae tempor nisl orci eu quam. Quisque finibus orci neque, a mollis nisl molestie rutrum. Praesent at pretium </p>
 						
 					</header>
