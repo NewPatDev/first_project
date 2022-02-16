@@ -182,15 +182,16 @@ a:link
 	
 }
 
-.why p
+.why
 {
-	color:white;
+	width:70%;
 	text-align:center;
-	padding-left:170px;
-	padding-top:10px;
-	font-size:20px;
-	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size: 20px;
+	
 }
+
 
 .newest
 {
@@ -281,6 +282,7 @@ h3
 	width:250px;
 	height:120px;
 	font-size:72px;
+	
 
 }
 
@@ -344,6 +346,12 @@ h3
 	width:100%;
 }
 
+a.sociallink
+{
+	display:block;
+	text-decoration:none;
+	color:white;
+}
 .info
 {
 	text-align:center;
@@ -362,4 +370,138 @@ h3
 	right:50px;
 	bottom:2px;
 	display:none;
+}
+
+.kontaktimg
+{
+	background-image: url("img/tir.png");
+	background-size:cover;
+	height:400px;
+	margin-top:40px;
+	position:relative;
+	overflow:hidden;	
+	
+}
+
+.kontaktimg p
+
+{
+	text-align:center;
+	font-size:60px;
+	letter-spacing: 10px;
+	color:#39a5f1;
+	height:80px;
+	padding-top:60px;
+	white-space:nowrap;
+	animation: przesun 30s linear infinite;
+	position:absolute;
+		
+}
+
+.kontaktimg p:hover
+{
+	animation-play-state:paused;
+}
+
+@keyframes przesun
+{
+	0% {transform:translateX(0); padding-left:110%; }
+	100% {transform:translateX(-100%); padding-left:110%; }
+}
+
+.container
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:1000px;
+	padding-bottom:110px;
+	
+}
+
+.west
+{
+	float:left;
+	width:500px;
+	padding-left:20px;
+	padding-top:30px;
+}
+
+.east
+{
+	float:left;
+	width:340px;
+	padding-top:30px;
+	font-size:20px;
+	text-align:justify;
+	padding-left:80px;
+}
+
+.east ul>li
+{
+	list-style-type:none;
+	margin-bottom:10px;
+	
+}
+
+input[type="text"]
+{
+	width:180px;
+	height:30px;
+	margin-top:10px;
+	margin-left:5px;
+	font-size:15px;
+	box-sizing: border-box;
+	outline:none;
+	border-radius:5px;
+	border:2px solid #ddd;
+	color:#666;
+	
+}
+
+input[type="text"]:focus
+{
+	border:3px solid #39a5f1;
+}
+
+input[type="text1"]
+{
+	width:300px;
+	height:100px;
+	margin-top:10px;
+	margin-left:30px;
+	font-size:15px;
+	box-sizing: border-box;
+	outline:none;
+	border-radius:5px;
+	border:2px solid #ddd;
+	color:#666;
+}
+
+input[type="text1"]:focus
+{
+	border:3px solid #39a5f1;
+}
+
+input[type="submit"]
+{
+	margin-top:10px;
+	outline:none;
+	border-radius:5px;
+	cursor:pointer;
+	letter-spacing:2px;
+	font-size:20px;
+	width:150px;
+	height:50px;
+	margin-left:100px;
+	border:3px solid #39a5f1;
+	-webkit-box-shadow: 1px 0px 50px -8px rgba(24, 40, 142, 1);
+	-moz-box-shadow: 1px 0px 50px -8px rgba(24, 40, 142, 1);
+	box-shadow: 1px 0px 50px -8px rgba(24, 40, 142, 1);
+}
+
+input[type=submit]:focus
+{
+	-webkit-box-shadow: 0px 0px 15px 5px rgba(204, 204, 204, 1);
+	-moz-box-shadow: 0px 0px 15px 5px rgba(204, 204, 204, 1);
+	box-shadow: 0px 0px 15px 5px rgba(204, 204, 204, 1);
 }
